@@ -1,6 +1,3 @@
-
-
-```markdown
 # 🚌 Análisis y Visualización de Viajes de Buses
 
 Este proyecto analiza y visualiza los viajes realizados por buses entre terminales, utilizando **Python** y **Streamlit**. Se procesan datos brutos de telemetría para identificar viajes, calcular métricas operativas y detectar anomalías.
@@ -10,25 +7,23 @@ Este proyecto analiza y visualiza los viajes realizados por buses entre terminal
 ## 📂 Estructura del Proyecto
 
 ```
-
 bus-viajes-proyecto/
 ├── app/
-│   └── dashboard.py           \# App principal de Streamlit
-├── data/                      \# Archivos de datos originales
-│   ├── bus\_data.xlsx
-│   ├── coordenadas\_1.xlsx
+│   └── dashboard.py           # App principal de Streamlit
+├── data/                      # Archivos de datos originales
+│   ├── bus_data.xlsx
+│   ├── coordenadas_1.xlsx
 │   └── origen-destino.xlsx
-├── notebooks/                 \# Archivos de análisis y experimentación
+├── notebooks/                 # Archivos de análisis y experimentación
 │   └── analisis.ipynb
-├── output/                    \# Datasets procesados y resultados
-│   └── trip\_summary.csv       \# Dataset final de viajes
-├── src/                       \# Código fuente de las herramientas
-│   ├── detect\_viajes.py       \# Lógica principal de detección de viajes
-│   └── utils.py               \# Funciones auxiliares
-├── requirements.txt           \# Dependencias del proyecto
-└── README.md                  \# Este archivo
-
-````
+├── output/                    # Datasets procesados y resultados
+│   └── trip_summary.csv       # Dataset final de viajes
+├── src/                       # Código fuente de las herramientas
+│   ├── detect_viajes.py       # Lógica principal de detección de viajes
+│   └── utils.py               # Funciones auxiliares
+├── requirements.txt           # Dependencias del proyecto
+└── [README.md](http://_vscodecontentref_/1)                  # Este archivo
+```
 
 ---
 
@@ -82,6 +77,3 @@ streamlit run app/dashboard.py
 ```
 
 Tu dashboard se abrirá automáticamente en tu navegador web.
-
-```
-```
